@@ -1,0 +1,258 @@
+.link{
+    text-decoration: none;
+    color:rgb(87, 61, 61);
+}
+.block1 {
+    background-color: cadetblue;
+    height: 100%;
+    margin-bottom: 50px;
+}
+.box1 {
+    margin-top: -730px;
+    width: 548px;
+    margin-left: 1.5cm;
+    font-size: 19pt;
+}
+.box2 {
+    text-align: center;
+    font-size: 49pt;
+    margin-top: 100pt;
+    color: white;
+}
+.slog {
+    text-align: justify;
+    font-size: 20pt;
+    text-align: center;
+    color: rgb(87, 61, 61);
+}
+.pict1 {
+    margin-top: 172px;
+    margin-left: -150px;
+    height: 561px;
+}
+.pict2 {
+    margin-top: -767px;
+    height: 784px;
+    margin-left: 729px;}
+
+.block2{
+    background:cadetblue;
+    color:white;
+    height: 100%;
+    margin-bottom: 100px;
+}
+.piccafe{
+    height: 550px;
+    width: 550px;
+    margin-left: 489px;
+    margin-top: -468px;
+}
+.head{
+    font-size: 25pt;
+    text-align: center;
+
+}
+.smallhead{
+    font-size: 19pt;
+    text-align: center;
+    margin-top: -28px;
+
+ }
+.card1{
+    padding-left: 116px;
+    width: 250px;
+    height: 180px;
+   
+}    
+.card2{
+    margin-top: 89px;
+    margin-left: 229px;
+    width: 250px;
+    height: 180px;
+}
+.card3{
+    margin-top: -570px;
+    margin-left: 1145px;
+    width: 250px;
+    height: 180px;
+ }
+.card4{
+    margin-top: 65px;
+    margin-left: 1034px;
+    width: 250px;
+    height: 150px;
+ }
+.mainTxtInCard{
+    position:relative;
+    font-size: 31pt;
+    text-align: center;
+    line-height: normal;
+
+}
+.secondTxtInCard{
+    position:relative;
+    font-size: 22pt;
+    text-align: center; 
+
+}
+
+.block3{
+    background: cadetblue;
+    height: 600px;
+}
+.pict{
+    width: 366px;
+    height: 405px;
+   
+    object-position: center;}
+.mar{
+    padding-left: 170px;
+    padding-right: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 90px;
+}
+.arrow{
+    margin-left: -91px;
+    font-size: 50px;
+    margin-top: 168px;
+    color:rgb(87, 61, 61);
+}
+.arrow-right{
+     margin-left: 3px;
+     
+}
+.body{
+    margin: 0px;
+}
+.btn{
+    background-color: rgb(87, 61, 61);
+    font-size: 40px;
+    color: cadetblue;
+    height: 50px;
+    text-align: center;
+    width: 125px;
+    margin-left: 700px;
+    margin-top: 17px;
+}
+.block4{
+    padding-top: 100px;
+    margin-bottom: 200px;
+}
+.phone {
+    background-color:  cadetblue;
+    margin-left:100px;
+    margin-right: 100px;
+}
+.special{
+    font-size: 45pt;
+    text-align: center;
+    font-stretch: extra-condensed;
+    color:rgb(87, 61, 61);
+}
+.picture{
+    width: 380px;
+    height: 407px;
+    display:block;
+    margin:auto;
+}
+.circle{
+    color: cadetblue;
+    font-size: 45pt;
+    margin-left: 100px;
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    text-indent: -1.3cm;
+}
+.circle1{
+    padding-left: 42px;
+}
+.circle2{
+    padding-left: 40px;
+   
+}
+.circle3{
+    padding-right: 100px;
+    
+}
+.txt{
+    font-size: 35px;
+    color: rgb(87, 61, 61);
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .block1 {
+        height: 56%;
+        width: 100%;
+    }
+    .box1 {
+        margin-top: -730px;
+        width: 548px;
+        margin-left: 0px;
+    font-size: 17pt;
+    }
+    .pict1 {
+        margin-top: 279px;
+    margin-left: -111px;
+    height: 452px;
+    }
+    .pict2 {
+        margin-top: -732px;
+        height: 731px;
+    width: 536px;
+    margin-left: 444px;
+    }
+    
+    .block2{
+        height: 56%;
+    }
+    .piccafe{
+        height: 435px;
+        width: 435px;
+        margin-left: 266px;
+        margin-top: -391px;
+    }
+    .card1{
+        padding-left: 69px;
+        width: 163px;
+        height: 180px;
+    }    
+    .card2{
+        margin-top: 68px;
+    margin-left: 58px;
+    width: 231px;
+    height: 169px;
+    }
+    .card3{
+        margin-top: -492px;
+    margin-left: 703px;
+     }
+    .card4{
+        margin-left: 688px;
+     }
+    .mainTxtInCard{
+        font-size: 29pt;
+    
+    }
+    .secondTxtInCard{
+        font-size: 19pt;
+    
+    }
+    
+    .pict{
+        width: 242px;
+        height: 299px;
+       }
+    .mar{
+        padding-left: 171px;
+        padding-top: 136px;
+    }
+    .arrow{
+        margin-top: 128px;
+    }
+    .btn{
+        margin-left: 437px;
+    }
+}
